@@ -55,12 +55,13 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'database',
-			'username'  => 'root',
-			'password'  => '',
+			'database'  => 'demo_blog',
+			'username'  => 'blog',
+			'password'  => 'demo',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
+                        'port'      => '8889'
 		),
 
 		'pgsql' => array(
