@@ -6,6 +6,7 @@
 </head>
 <body>
 <h1>Demo Blog</h1>
+<h2>commit test</h2>
 @foreach ($posts as $post)
   <a href="{{ action('PostController@show', $post->id) }}">{{{ $post->title }}}</a> {{ $post->created_at }}<br />
 @endforeach
